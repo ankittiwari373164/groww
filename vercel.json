@@ -3,7 +3,6 @@
   "buildCommand": "npm install",
   "installCommand": "npm install",
   "env": {
-    "GROWW_ACCESS_TOKEN": "@groww_access_token",
     "NODE_ENV": "production"
   },
   "regions": ["iad1"],
