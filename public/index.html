@@ -282,7 +282,7 @@ header{position:sticky;top:0;z-index:100;display:flex;align-items:center;gap:12p
 
 <script>
 // ══════════════════════════════════════════════════════════════
-const API = 'http://localhost:3001';
+const API = window.location.origin;
 let allPreds=[], allQuotes={};
 let predFilter='ALL', chartSym='RELIANCE', chartTF=5;
 let chart=null, candleSeries=null;
